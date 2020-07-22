@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-image: url(../img/city-lit-up-at-night-316902.jpg), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@ body {
     font-style: normal;
 }
 header {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.9);
     height: 50px;
     width: 100%;
 }
@@ -39,4 +39,43 @@ nav ul li a {
  text-decoration: none;
  color: #fff;
  text-transform: uppercase;
+}
+.banner-text {
+    width: 80%;
+    color: #fff;
+    margin: 15% auto 0;
+}
+h2 {
+    font-family: galette,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 50px;
+}
+p {
+    font-family: galette,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 20px;
+margin-top: 10px;
+}
+.banner-text ul {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.banner-text ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-right: 25px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.banner-text ul li a:hover {
+    color: rgb(73, 73, 73);
+    border: 2px solid rgb(5, 5, 5);
 }
