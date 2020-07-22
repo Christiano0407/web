@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg) linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
