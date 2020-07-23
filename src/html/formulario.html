@@ -57,7 +57,41 @@
    </div>
 
 <!--    Correo-Electrónico -->
-        </form>
+<div class="formulario__grupo" id="grupo__correo">
+    <label for="correo" class="formulario__label">Correo electrónico</label>
+    <div class="formulario__grupo-input">
+        <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+    </div>
+    <p class="formulario__input-error">El correo sólo permite letras, numeros, puntos, guiones, y guión bajo</p>
+</div>
+
+<!-- Teléfono -->
+<div class="formulario__grupo" id="grupo__telefono">
+    <label for="telefono" class="formulario__label">Teléfono</label>
+    <div class="formulario__grupo-input">
+        <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="555655687">
+        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+    </div>
+    <p class="formulario__input-error">Digitos máximos 14</p>
+</div>
+
+<!-- Términos y Condiciones -->
+    <div class="formulario__grupo" id="grupo__terminos">
+        <label for="" class="formulario__label">
+            <input type="checkbox" class="formulario__checkbox" name="terminos" id="terminos">Acepto los términos
+        </label>
+    </div>
+    
+    <div class="formulario__mensaje" id="formulario__mensaje">
+        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+    </div>
+
+    <div class="formulario__grupo formulario__grupo-btn-enviar">
+    <button type="submit" class="formulario__btn">Enviar</button>
+    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente</p>
+    </div>
+</form>
     </main>
 
     <footer>

@@ -50,3 +50,14 @@ main {
 .formulario__input-error-activo {
     display: block;
 }
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formulario__checkbox {
+    margin-right: 10px;
+}
