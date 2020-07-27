@@ -11,18 +11,20 @@
 font-weight: 700;
 font-style: italic; */
 } 
-.hero {
-    width: 100%;
-    height: 100%;
-    display: flex;
+body {
+     font-family: sophisto,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #1a1a1a;
+    margin: 0px;
 }
-.left-col {
-    flex-basis: 30%;
-    height: 100%;
-    background-color: #e80707;
+#glass {
+    width: 440px;
+    height: 520px;
+    background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.right-col {
-    flex-basis: 70%;
-    height: 100%;
-}
+
 
