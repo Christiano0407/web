@@ -24,7 +24,46 @@ body {
     background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 450px 550px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
+#glass::before {
+    width: 450px;
+    height: 550px;
+    background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-filter: blur(20px);
+}
+#img {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+/* img {
+    width: 440px;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px 550px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+} */
 
 
