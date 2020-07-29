@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 350;
+    letter-spacing: 0.125rem;
+    display: inline-block;
+}
+.container {
+    width: 100%;
+    padding: 0% 2%;
+    display: flex;
+    box-sizing: border-box;
+    height: 80vh;
+}
