@@ -56,7 +56,7 @@ api.fetch(25)
      this.$container.textContent = `Pokemon encontrado ${this.pokemon.name}`
  }
  renderType(type) {
-    this.$container.textContent = `Es de tipo ${type}`
+    this.$container.textContent = `Es de tipo ${this.pokemon.types[0].type.name}`
  }
 } 
 
@@ -66,4 +66,5 @@ const pokemon = new Pokemon(25)
 pokemon.fetch()
 .then(() => {
 pokemon.renderName()
+pokemon.renderType()
 })
