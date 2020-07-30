@@ -3,12 +3,8 @@ function renderPokemon(image) {
     $pokemon.setAttribute(`src`, image)
 }
 
-/* fetch(``, {
-    method: `GET`,
-    headers: {
-        `Content-Type`: `application/json`,
-    },
-    body: JSON.stringify({
-        name: `Chris`
-    })
-}) */
+fetch(`https://pokeapi.co/api/v2/pokemon/25`)
+.then(response => response.json())
+.then(pokemon => {
+    renderPokemon(pokemon.sprites.front_default)
+})
