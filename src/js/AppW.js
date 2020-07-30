@@ -41,7 +41,10 @@ api.fetch(25) */
 
 
 class Pokemon extends API  {
-    constructor()
+    constructor(id){
+     super(id);
+     this.id
+    }
  $container = document.querySelector(`#container`)
  renderName(name) {
      this.$container.textContent = `Pokemon encontrado ${name}`
