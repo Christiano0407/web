@@ -105,6 +105,8 @@ fetch('https://pokeapi.co/api/v2/pokemon/25/')
       }, time)
     })
   }
+
+ /*  otra opción */
   console.time()
   Promise.all([
     buy('frutas', 5000),
@@ -117,19 +119,20 @@ fetch('https://pokeapi.co/api/v2/pokemon/25/')
     renderMessage(cart.toString())
   })
 
-  // function shopping() {
-  //   const cart = []
-  //   return buy('fruta')
-  //   .then(thing => { cart.push(thing); return buy('verduras') })
-  //   .then(thing => { cart.push(thing); return buy('carne') })
-  //   .then(thing => { cart.push(thing); return buy('granos') })
-  //   .then(thing => { cart.push(thing); return cart })
-  // }
+ /*  una opción */
+/*   function shopping() {
+     const cart = []
+     return buy('fruta')
+     .then(thing => { cart.push(thing); return buy('verduras') })
+     .then(thing => { cart.push(thing); return buy('carne') })
+     .then(thing => { cart.push(thing); return buy('granos') })
+     .then(thing => { cart.push(thing); return cart })
+   }
 
-  // shopping()
-  // .then((cart) => {
-  //   renderMessage(cart.toString())
-  // })
+   shopping()
+   .then((cart) => {
+     renderMessage(cart.toString())
+   }) */
 
   // buy('frutas')
   // .then((thing) => {
