@@ -22,9 +22,18 @@ background-color: #161616;
 .logo {
     text-decoration: none;
  font-family: mentone,sans-serif;
+font-weight: bold;
+font-style: normal; 
+font-size: 30px;
+color: rgba(0, 0,0, 0.5);
+}
+.lang {
+    text-decoration: none;
+ font-family: mentone,sans-serif;
 font-weight: 700;
 font-style: normal; 
-
+font-size: 20px;
+color: rgba(0, 0,0, 0.5);
 }
 nav{
 display: flex;
@@ -42,6 +51,22 @@ padding: 10px 50px;
 background-color: #f4f7ff;
 box-shadow: 2px 2px 12px rgba(0, 0,0, 0.5);
 z-index: 1;
+cursor: pointer;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    padding: 10px 15px;
+    color: #6c707c;
+    font-size: 12px;
+}
+.menu li a:hover {
+    background-color: rgba(0, 0,0, 0.5);
+    color: #fff;
+    transition: all ease 0.4s;
+    font-weight: 700;
+    border-radius: 5px;
 }
 nav ul {
     list-style: none;
