@@ -18,6 +18,12 @@ background-color: #161616;
     height: 100vh;
     box-sizing: border-box;
     background-color: #edf1fd;
+    position: relative;
+    background-image: url(../img/02\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+ /*    object-fit: cover; */
 }
 .logo {
     text-decoration: none;
@@ -75,4 +81,45 @@ nav ul {
 nav ul li a {
     list-style: none;
     text-decoration: none;
+}
+
+.name {
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+ font-family: mentone,sans-serif;
+font-weight: 700;
+font-style: normal; 
+}
+.name p:nth-child(1), 
+.name .details {
+    color: #6c707c;
+    font-size: 16px;
+}
+.name h1 {
+    font-family: mentone,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    margin: 0px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #292929;
+}
+.cv-btn {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cv-btn:hover {
+    background-color: #fff;
+    color: #292929;
 }
