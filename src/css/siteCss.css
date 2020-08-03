@@ -113,13 +113,27 @@ font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #292929;
+    background-color: rgba(0, 0,0, 0.5);
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 .cv-btn:hover {
     background-color: #fff;
     color: #292929;
+}
+.social {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    display: flex;
+}
+.social a {
+    margin: 6px 12px;
+}
+.social i {
+    color: rgba(0, 0,0, 0.5);
+    font-size: 14px;
 }
