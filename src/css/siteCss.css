@@ -61,7 +61,8 @@ cursor: pointer;
     color: #6c707c;
     font-size: 12px;
 }
-.menu li a:hover {
+.menu li a:hover,
+.active {
     background-color: rgba(0, 0,0, 0.5);
     color: #fff;
     transition: all ease 0.4s;
