@@ -428,11 +428,30 @@ position: relative;
 }
 #contact-btn h1 {
     font-family: mentone,sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
     font-size: 2rem;
     color: #fff;
     margin: 10px;
     padding: 5px;
     letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#contact-btn a {
+    color: #fff;
+    font-size: 1rem;
+    font-family: mentone,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   /*  width: 150px; */
+    height: 40px;
+    margin: 10px;
+   /*  background-color: #d907fe55; */
+    box-shadow: rgba(0, 0,0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
 }
