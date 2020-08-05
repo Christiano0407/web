@@ -358,3 +358,26 @@ position: relative;
     background-color: #d907fe55;
     text-transform: uppercase;
 }
+.p-b-container {
+    width: 90%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px
+}
+.p-box{
+    background-color: #1f1f1f1f;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 13px rgba(0, 0,0, 0.3);
+    position: relative;
+}
+.p-box img {
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    object-fit: cover;
+}
