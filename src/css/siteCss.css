@@ -511,4 +511,8 @@ position: relative;
     width: 250px;
     border: none;
     outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #292929;
+    color: #fff;
+    margin: 10px 0px ;
 }
