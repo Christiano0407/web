@@ -455,3 +455,60 @@ position: relative;
     cursor: pointer;
     text-decoration: none;
 }
+#contact-form{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-form form {
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    background-color:#d907fe55;
+    box-shadow: 2px 12px 20px rgba(0, 0,0, 0.3);
+    border: 1px solid rgba(249, 249,249, 0.30);
+}
+.contact-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-right {
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: solid rgba(41, 41, 41, 0.2);
+}
+.c-l-heading {
+    color: #fff;
+    font-family: mentone,sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-size: 400;
+}
+.f-email, .f-name {
+    display: flex;
+    flex-direction: column;
+    font-family: mentone,sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.f-name font, .f-email font {
+    color: #bfbfbf;
+    font-size: 22px;
+}
+.f-email input,  .f-nama input  {
+    height: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
