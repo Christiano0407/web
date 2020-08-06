@@ -42,7 +42,7 @@ header {
    outline: 2px solid #eee;
    padding: 1rem 2rem;
 }
-.hamburguer-menu {
+.hamburger-menu {
     height: 5rem;
     width: 5rem;
     background-color: #eee;
@@ -55,7 +55,7 @@ header {
     justify-content: center;
     cursor: pointer;            
 }
-.hamburguer-menu:hover {
+.hamburger-menu:hover {
     box-shadow: 
             inset .5rem .5rem 1rem #cacaca,
               inset -.5rem -.5rem 1rem #fff;
@@ -83,4 +83,12 @@ header {
 }
 .open .bar {
 background-color: transparent;
+}
+.open .bar::before{
+    top: 0;
+    transform: rotate(135deg);
+}
+.open .bar::after {
+    top: 0;
+    transform: rotate(-135deg);
 }
