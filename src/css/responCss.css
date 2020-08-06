@@ -101,7 +101,7 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #eee;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +109,27 @@ header {
     box-shadow: -1rem 0 1rem rgba(0, 0, 0, .1);
     z-index: 1500;
     transform: translateX(55rem);
+    transition: transform .5s;
 }
 .open .nav-list {
     transform: translateX(0);
+}
+.nav-item {
+    list-style: none;
+    border-bottom: 2px solid crimson;
+}
+.nav-link {
+text-decoration: none;
+font-size: 1.5rem;
+font-family: mentone,sans-serif;
+font-weight: 700;
+ font-style: normal;
+ display: block;
+ color: #333;
+ text-transform: uppercase;
+ padding: .5rem;
+ transition: color .5s;
+}
+.nav-link:hover {
+    color: crimson;
 }
