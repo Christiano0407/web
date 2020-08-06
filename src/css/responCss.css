@@ -66,6 +66,7 @@ header {
     background-color: #333;
     display: inline-block;
     position: relative;
+    transition: background-color .5s;
 }
 .bar::before,
 .bar::after {
@@ -73,7 +74,8 @@ header {
     position: absolute;
     width: inherit;
     height: inherit;
-    background-color: inherit;
+    background-color: #333;
+    transition: all .5s;
 }
 .bar::before {
     top: -.8rem;
