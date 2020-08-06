@@ -8,7 +8,7 @@ body {
     font-family: mentone,sans-serif;
     font-weight: 400;
     font-style: normal;
-
+    overflow-x: hidden;
     /* font-family: ysans-std-mondrian,sans-serif;
     font-weight: 400;
     font-style: normal; */
@@ -54,6 +54,7 @@ header {
     align-items: center;
     justify-content: center;
     cursor: pointer;            
+    z-index: 2000;
 }
 .hamburger-menu:hover {
     box-shadow: 
@@ -84,7 +85,7 @@ header {
     top: .8rem;
 }
 .open .bar {
-background-color: transparent;
+ background-color: transparent; 
 }
 .open .bar::before{
     top: 0;
@@ -93,4 +94,22 @@ background-color: transparent;
 .open .bar::after {
     top: 0;
     transform: rotate(-135deg);
+}
+.nav-list {
+    width: 50rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -1rem 0 1rem rgba(0, 0, 0, .1);
+    z-index: 1500;
+    transform: translateX(55rem);
+}
+.open .nav-list {
+    transform: translateX(0);
 }
