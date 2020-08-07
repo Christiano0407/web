@@ -159,4 +159,47 @@ font-weight: 700;
     top: 0;
     right: 0;
     z-index: 10;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 10;
+    /* transform-origin:right; */
+}
+.hero-textbox {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: mentone,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    color: #333;
+    padding: 1rem;
+    z-index: 20;
+}
+.main-heading {
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: 1rem;
+}
+.sub-heading {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5rem;
+}
+.cta-btn {
+    display: inline-block;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background-color: crimson;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    border-radius: .5rem;
+    box-shadow: 3px 5px 1rem rgba(0, 0, 0, .3);
+    position: relative;
 }
