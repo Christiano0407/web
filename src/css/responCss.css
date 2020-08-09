@@ -33,7 +33,7 @@ header {
     font-family: ysans-std-mondrian,sans-serif;
     font-weight: 700;
     font-style: bold; 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #fff;
    text-transform: uppercase;
@@ -161,7 +161,7 @@ font-weight: 700;
     z-index: 10;
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
     z-index: 10;
-    /* transform-origin:right; */
+    transform-origin:right;
 }
 .hero-textbox {
     width: 100%;
@@ -260,6 +260,9 @@ font-weight: 700;
     .cta-btn {
         padding: 1rem 2.5rem;
     }
+    /* .hero-clipped {
+        transform-origin: top;
+    } */
 }
 @media screen and (max-width: 550px) {
    /*  .nav-list {
