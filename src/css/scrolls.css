@@ -100,7 +100,19 @@ position: relative;
 .scrolling-active .nav {
     height: 6.5rem;
 }
-
+.scrolling-active .nav a {
+    color: #313131;
+}
+.scrolling-active #nav-cta {
+    background-color: #313131;
+    color: #fff;
+}
+.scrolling-active #nav-cta:hover {
+    background-color: #151515;
+}
+.scrolling-active .nav-link::after{
+    background-color: #313131;
+}
 /* Hero Apply */
 .hero {
     width: 100%;
