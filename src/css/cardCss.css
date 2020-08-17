@@ -120,8 +120,47 @@ section {
     text-transform: uppercase;
     color: #abeef8;
     font-size: 1.4rem;
+    transition: all;
 }
 .card .btn:hover {
     color: #fff;
     background-color: #0cdafa;
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.2);
+}
+.card .btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+.social-media {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:2.5rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.social-media a {
+    margin: 5px;
+    padding: 5px;
+}
+.social-media i {
+    font-size: 3rem;
+    border-radius: 5px;
+}
+.fa-facebook-square {
+    color: #3b5999;
+}
+.fa-twitter-square {
+  color: #55acee;
+}
+.fa-instagram-square {
+    color: #f703d6;
+}
+.fa-linkedin {
+   color: #3b5999;
+}
+.fa-github-square {
+ color: #333;
 }
