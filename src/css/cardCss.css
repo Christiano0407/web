@@ -134,6 +134,7 @@ section {
 }
 .social-media {
     width: 100%;
+    transition: color .5s;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -164,3 +165,44 @@ section {
 .fa-github-square {
  color: #333;
 }
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-linkedin:hover,
+.fa-instagram-square:hover,
+.fa-github-square:hover {
+    color: #45e19f;
+}
+
+/* MEDIA-QUERIES */
+@media screen and (min-width: 700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin: 2rem;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        } 
+    }
+    .card:nth-child(1) {
+        animation: fadeIn .5s .5s backward;
+    }
+    .card:nth-child(2) {
+        animation: fadeIn .5s 1s backward;
+    }
+    .card:nth-child(3) {
+        animation: fadeIn .5s 1.5s backward;
+    }
+    .card:nth-child(4) {
+        animation: fadeIn .5s 2s backward;
+    }
+    }
