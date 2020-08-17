@@ -80,10 +80,48 @@ section {
     height: 15rem;
     object-fit: cover;
     border-radius: 50%;
-    margin-top: -10rem;
+    margin-top: -11rem;
     z-index: 999;
+    border: 1rem solid #abeef8;
 }
 /* img {
     width: 500px;
     height: 500px;
 } */
+.card h1 {
+    font-family: fairway,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #333;
+    margin: 1.5rem 0;
+}
+.job-title {
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: fairway,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+ .about {
+    font-family: mentone,sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+} 
+.card .btn {
+    padding: 1rem 2.5rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #abeef8;
+    font-size: 1.4rem;
+}
+.card .btn:hover {
+    color: #fff;
+    background-color: #0cdafa;
+}
