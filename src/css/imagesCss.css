@@ -10,6 +10,7 @@ body {
     font-family: komu-a,sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #050259;
 /* 
     font-family: neue-haas-unica,sans-serif;
     font-weight: 700;
@@ -33,6 +34,7 @@ body {
     color: #fff;
     box-sizing: border-box;
     padding: 25px;
+    position: relative;
 }
 .col h2 {
     font-family: neue-haas-unica,sans-serif;
@@ -74,4 +76,13 @@ body {
     margin-top: 20px;
     cursor: pointer;
     font-size: 12px;
+}
+.col img {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.col:hover {
+    flex-grow: 2.5;
 }
