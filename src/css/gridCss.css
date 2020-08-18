@@ -117,3 +117,6 @@ body {
     grid-area: img-12;
     background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
 }
+@media screen and (max-width: 900px) {
+
+}
