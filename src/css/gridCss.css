@@ -72,45 +72,45 @@ body {
 }
 .img-2 {
     grid-area: img-2;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/aud1.jpg);
 }
 .img-3 {
     grid-area: img-3;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/aud3.jpg);
 }
 .img-4 {
     grid-area: img-4;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/aud4.jpg);
 }
 .img-5 {
     grid-area: img-5;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/watch.png);
 }
 .img-6 {
     grid-area: img-6;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/mateusz-turbinski-d-QzcrgLDaI-unsplash.jpg);
 }
 .img-7 {
     grid-area: img-7;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/luke-stackpoole-mOEqOtmuPG8-unsplash.jpg);
 }
 .img-8 {
     grid-area: img-8;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/isaac-castillejos-VOQkzFIkF0Y-unsplash.jpg);
 }
 .img-9 {
     grid-area: img-9;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
 }
 .img-10 {
     grid-area: img-10;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/city-lit-up-at-night-316902.jpg);
 }
 .img-11 {
     grid-area: img-11;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/courtney-kammers-Fn5ppkNYTAo-unsplash.jpg);
 }
 .img-12 {
     grid-area: img-12;
-    background-image: url(../img/aud2.jpg);
+    background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
 }
