@@ -118,5 +118,26 @@ body {
     background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
 }
 @media screen and (max-width: 900px) {
-
+    .image-gallery {
+        grid-template-areas:"img-1 img-1 img-2 img-3"
+                            "img-4 img-5 img-6 img-6" 
+                            "img-7 img-12 img-8 img-9"
+                            "img-10 img-10 img-11 img-11"; 
+    } 
+    .image-gallery a {
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .image-gallery {
+        grid-template-areas:"img-1 img-1 img-2 img-3"
+                            "img-4 img-5 img-6 img-6" 
+                            "img-7 img-12 img-8 img-9"
+                            "img-7 img12 img-8 img-9"
+                            "img-10 img-10 img-11 img-11"; 
+    } 
+  .image-gallery a {
+        height: 20rem;
+        flex-wrap: wrap;
+    } 
 }
