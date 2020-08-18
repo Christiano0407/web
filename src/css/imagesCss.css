@@ -10,7 +10,7 @@ body {
     font-family: komu-a,sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #050259;
+    background-color: #fff;
 /* 
     font-family: neue-haas-unica,sans-serif;
     font-weight: 700;
@@ -35,12 +35,13 @@ body {
     box-sizing: border-box;
     padding: 25px;
     position: relative;
+    transition: 0.6s;
 }
 .col h2 {
     font-family: neue-haas-unica,sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -60,11 +61,11 @@ body {
     font-size: 12px;
     margin: 28px 0;
 }
-.caption p {
+.text {
     font-family: komu-a,sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 20px;
 }
 .caption button {
     border: 1px solid #fff;
@@ -75,7 +76,7 @@ body {
     border-radius: 30px;
     margin-top: 20px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 15px;
 }
 .col img {
     width: 200px;
@@ -85,4 +86,10 @@ body {
 }
 .col:hover {
     flex-grow: 2.5;
+}
+.col:hover .caption {
+    display: block;
+}
+.col:hover h2 {
+    text-align: left;
 }
