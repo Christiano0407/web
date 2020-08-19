@@ -67,21 +67,35 @@ nav {
     z-index: 3;
     background-color: #fff;
 }
+.nav-closed ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 .nav-images img {
     height: 250px;
     width: 200px;
     object-fit: cover;
+    border-radius: 5px;
 }
 .nav-open {
     position: absolute;
     width: 40%;
     height: 80%;
   /*   top: 20%; */
-    background-color: #23D9B7;
+  /*   background-color: #23D9B7; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    opacity: 0;
+    pointer-events: none;
 
     margin-top: 12rem;
 }
@@ -90,4 +104,24 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+.clothing h2 {
+    font-family: halyard-display,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+  /*   text-transform: uppercase; */
+}
+.clothing ul li {
+    padding-bottom: 10px;
+    /* font-size: 20px; */
+}
+.clothing ul{
+ /*    text-decoration: none; */
+    list-style: none;
+}
+.clothing ul li a {
+    color: #7D07F2;
+    text-decoration: none;
+    font-size: 20px;
 }
