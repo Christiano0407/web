@@ -20,4 +20,24 @@ body {
     color: #5207F2;
     color: #23D9B7;
     color: #D7F205; */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+}
+header {
+    height: 100vh;
+    position: relative;
+}
+.cover {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    right: 0;
+}
+.nav-images img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
 }
