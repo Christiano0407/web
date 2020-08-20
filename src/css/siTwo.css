@@ -54,7 +54,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img/andrae-ricketts-0_la3_Slfwk-unsplash.jpg);
+    background-image: url(../img/daniel-korpai-o1utz9Neufo-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -105,4 +105,7 @@ a {
     text-transform: uppercase;
     color: var(--color3);
     margin: 1rem 0 1.5rem 0;
+}
+.description {
+    position: relative;
 }
