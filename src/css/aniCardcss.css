@@ -45,6 +45,11 @@ img {
     width: 2em;
     height: 2em;
     border-radius: 50%;
+}.streamers img:nth-of-type(1){
+    transform: translateX(25%);
+}
+.streamers img:nth-of-type(2){
+    transform: translateX(50%);
 }
 .front .name {
 text-align: center;
@@ -56,8 +61,12 @@ margin: .75em 0;
 .front .stats {
 display: flex;
 justify-content: space-between;
-border: 1px solid #401000;
+border: 1px solid var(--cir-dark);
 align-items: center;
+}
+.front img {
+    border: 1px solid var(--cir-dark);
+    
 }
 .back {
     display: none;
