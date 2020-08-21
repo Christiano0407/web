@@ -30,3 +30,35 @@ h3,
 p {
     margin: 0;
 }
+img {
+    max-width: 100%;
+}
+.game {
+    position: relative;
+    width: 12.5rem;
+}
+.streamers {
+    display: flex;
+}
+.streamers img {
+    object-fit: cover;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+.front .name {
+text-align: center;
+font-family: halyard-display,sans-serif;
+font-weight: 700;
+font-style: normal;
+margin: .75em 0;
+}
+.front .stats {
+display: flex;
+justify-content: space-between;
+border: 1px solid #401000;
+align-items: center;
+}
+.back {
+    display: none;
+}
