@@ -63,4 +63,21 @@ transform: translateY(1rem) rotate(45deg);
         background-color: var(--two-color);
         padding: 5rem 2.5rem;
         opacity: 0;
+        transform: scale(0);
+        transition: opacity .5s;
     }
+
+#toggle:checked ~ .nav {
+    opacity: 1;
+    transform: scale(1);
+}
+.nav-item {
+    list-style: none;
+    line-height: 2;
+}
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #BF05F2;
+    font-size: 3rem;
+}
