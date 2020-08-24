@@ -9,6 +9,7 @@
     --cir-accent:#B30300 ;
     --cir-accent-Dark: #401000;
     --cir-secondary: #0540F2;
+    --br: .5em;
 }
 body {
     /* font-family: halyard-display,sans-serif;
@@ -53,10 +54,13 @@ img {
 }
 .rank {
     font-weight: bold;
-    position: relative;
-    top: 0;
+    position: absolute;
+    top:0;
     background: rgba(0, 0, 0, 0.6);
-    padding: .5em;
+    padding: .5em .5em .75em;
+    right: 1em;
+    font-size: 1.25em;
+    clip-path: polygon(100% 0%, 100% 52%, 100% 100%, 50% 76%, 0 100%, 0 0);
 }
 .front .name {
 text-align: center;
@@ -74,7 +78,7 @@ align-items: center;
 .front img {
     border: 1px solid var(--cir-dark);
     z-index: 1;
-    
+    border-radius: 2em;
 }
 .back {
     display: none;
