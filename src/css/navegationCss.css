@@ -100,7 +100,38 @@ transform: translateY(1rem) rotate(45deg);
 .nav-link:hover::before {
     transform: translate(-50%, -50%) scale(1);
 }
-
-@media screen and (min-width: 768px) {
-    
-}
+/* 
+@media screen and (max-width: 1600px) {
+    .nav {
+        padding: 10rem 5rem;
+    }
+    .nav-link {
+        font-size: 8rem;
+    }
+    .nav-link::before {
+        width: calc(100% + 2rem);
+        height: 1rem;
+    }
+} */
+/* svg {
+    display: none;
+} */
+ @media screen and (min-width: 768px) {
+    .hamburger-menu {
+        top: 5rem;
+        right: 5rem;
+    }
+    .nav {
+        padding: 5rem;
+    }
+    .nav-item {
+        line-height: 1.2;
+    }
+    .nav-link {
+        font-size: 8rem;
+    }
+    .nav-link::before {
+        width: calc(100% + 2rem);
+        height: 1rem;
+    }
+} 
