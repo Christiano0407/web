@@ -25,8 +25,8 @@ body {
 }
 .hamburger-menu {
     width: 3rem;
-    height: 3rem;
-    background-color:var(--one-color);
+  /*   height: 3rem;
+    background-color:var(--one-color); */
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -35,4 +35,22 @@ body {
 }
 .line {
     display: block;
+}
+.line::before,
+.line::after {
+    content: "";
+    display: block;
+    background-color: var(--one-color);
+    height: 4px;
+}
+.line::before {
+    margin-bottom: 1.6rem;
+    box-shadow: 0 1rem #BF05F2;
+}
+#toggle {
+    display: none;
+}
+#toggle:checked .hamburger-menu .line::before {
+box-shadow: 0, 0, 0, #BF05F2;
+transform: translateY(1rem) rotate(45deg);
 }
