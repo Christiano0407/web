@@ -47,10 +47,10 @@ img {
     height: 2em;
     border-radius: 50%;
 }.streamers img:nth-of-type(1){
-    transform: translateX(25%);
+    transform: translateX(-15%);
 }
 .streamers img:nth-of-type(2){
-    transform: translateX(50%);
+    transform: translateX(-10%);
 }
 .rank {
     font-weight: bold;
@@ -72,14 +72,30 @@ margin: .75em 0;
 .front .stats {
 display: flex;
 justify-content: space-between;
-border: 1px solid var(--cir-dark);
+/* border: 1px solid var(--cir-dark);  */
 align-items: center;
 }
 .front img {
-    border: 1px solid var(--cir-dark);
+/*     border: 1px solid var(--cir-dark); */
     z-index: 1;
-    border-radius: 2em;
+    border-radius: .5em;
 }
 .back {
     display: none;
+}
+.background {
+    background: #234;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: .5rem;
+    transform: scale(.5);
+    transition: 250ms;
+}
+.game:hover {
+    background: #234;
+    transform: scale(1.1);
 }
