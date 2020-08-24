@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 62.5%;
+}
+:root {
+--one-color: #BF05F2;
+--two-color: #6805F2;
+--three-color: #0F0140;
+--four-color: #2405F2;
+--five-color: #110273;
+}
 body {
     /* font-family: halyard-display,sans-serif;
     font-weight: 700;
@@ -12,4 +21,18 @@ body {
     font-family: atten-new,sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--three-color);
+}
+.hamburger-menu {
+    width: 3rem;
+    height: 3rem;
+    background-color:var(--one-color);
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 9999;
+}
+.line {
+    display: block;
 }
