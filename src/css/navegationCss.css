@@ -42,15 +42,25 @@ body {
     display: block;
     background-color: var(--one-color);
     height: 4px;
+    transition: all .2s;
 }
 .line::before {
     margin-bottom: 1.6rem;
-    box-shadow: 0 1rem #BF05F2;
+    box-shadow: 0 1rem 0 #BF05F2;
 }
 #toggle {
     display: none;
 }
-#toggle:checked .hamburger-menu .line::before {
-box-shadow: 0, 0, 0, #BF05F2;
+#toggle:checked ~ .hamburger-menu .line::before {
+box-shadow: 0 0 0 #BF05F2;
 transform: translateY(1rem) rotate(45deg);
 }
+#toggle:checked ~ .hamburger-menu .line::after {
+    transform: translateY(-1rem) rotate(-45deg);
+    }
+    .nav {
+        min-height: 100vh;
+        background-color: var(--two-color);
+        padding: 5rem 2.5rem;
+        opacity: 0;
+    }
