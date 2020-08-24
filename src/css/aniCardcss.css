@@ -51,6 +51,13 @@ img {
 .streamers img:nth-of-type(2){
     transform: translateX(50%);
 }
+.rank {
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding: .5em;
+}
 .front .name {
 text-align: center;
 font-family: halyard-display,sans-serif;
@@ -66,6 +73,7 @@ align-items: center;
 }
 .front img {
     border: 1px solid var(--cir-dark);
+    z-index: 1;
     
 }
 .back {
