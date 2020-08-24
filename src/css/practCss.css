@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.balls {
+/* .balls {
     position: fixed;
     border-radius: 50%;
     background-color:#000 ;
@@ -17,9 +17,9 @@
 }
 #ball1 {
     left: 27%;
-}
+} */
 
-@keyframes bounce{
+/* @keyframes bounce{
 
     0% {
         top: 0px;
@@ -30,8 +30,8 @@
         top: 149px;
     }
  
-}
-
+} */
+/* 
 .ball {
     width: 70px;
     height: 70px;
@@ -39,12 +39,61 @@
     margin: 50px auto;
     position: fixed;
     left: 20%;
-    border-radius: 50%;
-
-    animation: fade 3s ease-in;
-}
-@keyframes fade {
+    border-radius: 50%;    
+    animation: fade 2s infinite;
+} */
+/* @keyframes fade {
     50% {
         left: 60%;
     }
+} */
+
+/* .background {
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+    background: linear-gradient(53deg, #ccfffc, #ffcccf)
+} */
+.stars {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
 }
+.star-1 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+  }
+
+  .star-2 {
+    margin-top: 25%;
+    margin-left: 25%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+  }
+
+  .star-3 {
+    margin-top: 10%;
+    margin-left: 50%;
+    animation-duration: 1s;
+    animation-name: twinkle;
+  }
+#back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#000, #000099, #66c2ff, #ffeee6);
+}
+@keyframes twinkle {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
