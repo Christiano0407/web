@@ -131,3 +131,43 @@
     .text .title {
         font-size: 100px;
     }
+    .watchnow {
+        position: absolute;
+        top: 60%;
+        right: 0;
+        transform: translateY(-50%);
+        background: var(--color004);
+        padding: 30px 100px 30px 30px;
+    }
+    .watchnow a {
+        text-decoration: none;
+        color: var(--color4);
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 3px solid #AB05F2;
+        padding-bottom: 5px;
+    }
+    .fa-play {
+        color: var(--color4);
+        font-size: 30px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .media {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 20px;
+    }
+    .media ul li {
+        display: inline-block;
+        padding: 20px;
+        font-size: 30px;
+        color: var(--color004);
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .media ul li:hover {
+        background-color: var(--color002);
+    }
