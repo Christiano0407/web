@@ -38,14 +38,22 @@ function names () {
 }
 names();
 
-var primero = 50;
+let password1 = `Contraseña1`;
+let password2 = `Contraseña1`;
+
+let pass = password1 == password2;
+console.log(pass);
+
+var primero = 40;
 var segundo = 50;
 
 function force ()  {
  if (primero >= segundo) {
     console.log(`Son iguales`)
- }else {
-     console.log(`Faltan 20`)
+ }else if(primero <= segundo){
+     console.log(`Es menor por 10`)
+ } else {
+     console.log(`Sólo 10`)
  }
 }
 force();
