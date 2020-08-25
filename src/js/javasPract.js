@@ -11,3 +11,31 @@ const name = {
 }
 
 console.log(name); */
+
+var person = {
+    name: "Natasha",
+    lastName: "Romanof",
+    edad: 28
+};
+console.log(person);
+
+const user = {
+    name: `John`,
+    age: 25
+}
+console.log(user.name);
+
+var nameOne = `Luisa Morales`;
+var nameTwo = `Natalia Velázquez`;
+
+function names () {
+    if(nameOne === nameTwo){
+        console.log(`Vaya!`)
+    }else {
+        console.log(`Ni modo`)
+    }
+
+}
+names();
+
+/* console.log(`Hola soy ${this.nameTwo}`); */
