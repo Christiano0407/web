@@ -38,4 +38,14 @@ function names () {
 }
 names();
 
-/* console.log(`Hola soy ${this.nameTwo}`); */
+var primero = 50;
+var segundo = 50;
+
+function force ()  {
+ if (primero >= segundo) {
+    console.log(`Son iguales`)
+ }else {
+     console.log(`Faltan 20`)
+ }
+}
+force();
