@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font1: font-family: neue-haas-unica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --color1:#009FE5 ;
+    --color2: #33BBEA;
+    --color3:  #CCECFA;
+    --color4: #fff;
+    --color5:#0D0D0D;
+    --color001:#FC046D;
+    --color002:#F2CE5F;
+    --color003:#28013D;
+    
+    }
+    html {
+        font-size: 10px;
+    }
+    body {
+     width: 100%;
+     height: 100vh;
+     font-family: var(--font1);
+     background-image: url(../img/undraw_mobile_images_rc0q.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     overflow: hidden;
+    }
