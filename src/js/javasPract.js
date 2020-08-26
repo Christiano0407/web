@@ -74,7 +74,7 @@ if(edad >= 22 && nombre == "Elizabeth") {
     document.write(`Lo sentimos pero, no es.`)
 } */
 
-var adulto = "Alma", edad = 30;
+/* var adulto = "Alma", edad = 30;
 
 if(adulto == "Alma" && edad == 30 ) {
     document.write(`Vaya son ellos`)
@@ -84,3 +84,11 @@ if(adulto == "Alma" && edad == 30 ) {
 else {
     document.write("No es")
 }
+
+var personaje = "Meliodas";
+
+if(personaje === "Meliodas") {
+    console.log(`Es él ${personaje}`)
+}else {
+    console.log("No essss")
+} */
