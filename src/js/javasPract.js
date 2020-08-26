@@ -101,8 +101,8 @@ if(personaje === "Meliodas") {
 
 var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
 
-for( i = 0; i <= dias.length - 1; i++) {
-console.log(dias[i]);
-}
+    for( i = 0; i <= dias.length - 1; i++) {
+    console.log(dias[i])
+      }
 
 
