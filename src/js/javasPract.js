@@ -93,16 +93,42 @@ if(personaje === "Meliodas") {
     console.log("No essss")
 } */
 
- const edad = 25;
+/* FOR */
+/*  const EDAD = 25;
 
- for( i = 0; i <= 30; i++ ) {
+ for( i = 0; i <= EDAD; i++ ) {
     console.log("oh!");
 };
 
 var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+ */
 
-    for( i = 0; i <= dias.length - 1; i++) {
+   /*  for( i = 0; i <= dias.length - 1; i++) {
     console.log(dias[i])
-      }
+      } */
+/*  funciones*/
+
+function fly () {
+ let  hola = "Saludo";
+    
+    if(hola == "Saludo"){
+        console.log(`Un ${hola}`)
+    }else {
+        console.log("nada!")
+    }
+}
+fly();
+
+ function saludo () {
+     console.log("Hola Ususario")
+ }
+ saludo();
+
+ function salud (nombre) {
+ console.log(`Hola ${nombre} `)
+ }
+ salud("Luisa");
+
+
 
 
