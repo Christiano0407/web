@@ -92,3 +92,17 @@ if(personaje === "Meliodas") {
 }else {
     console.log("No essss")
 } */
+
+ const edad = 25;
+
+ for( i = 0; i <= 30; i++ ) {
+    console.log("oh!");
+};
+
+var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+for( i = 0; i <= dias.length - 1; i++) {
+console.log(dias[i]);
+}
+
+
