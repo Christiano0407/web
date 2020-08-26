@@ -1,9 +1,9 @@
 /* const hello = document.querySelector(".hello"); */
-console.log("Hola Mundo");
+/* console.log("Hola Mundo"); */
 /* console.error("La aplicación ha fallado"); */
 
-document.write("Soy Javascript");
-document.write("<h1>Hello Saorse</h1>")
+/* document.write("Soy Javascript");
+document.write("<h1>Hello Saorse</h1>") */
 /* 
 const name = {
     "One": `Javier`,
@@ -12,7 +12,7 @@ const name = {
 
 console.log(name); */
 
-var person = {
+/* var person = {
     name: "Natasha",
     lastName: "Romanof",
     edad: 28
@@ -42,7 +42,7 @@ let password1 = `Contraseña1`;
 let password2 = `Contraseña1`;
 
 let pass = password1 == password2;
-console.log(pass);
+console.log(pass); */
 
 var primero = 40;
 var segundo = 50;
@@ -57,3 +57,30 @@ function force ()  {
  }
 }
 force();
+/* 
+var nombres = "Alma";
+
+if(nombres == "Alma") {
+    document.write(`Hola mi querida ${nombres}`);
+}else {
+    document.write(`No es`);
+} */
+
+/* var edad = 22, nombre = "Elizabeth";
+
+if(edad >= 22 && nombre == "Elizabeth") {
+    document.write(`Es ella!`)
+}else {
+    document.write(`Lo sentimos pero, no es.`)
+} */
+
+var adulto = "Alma", edad = 30;
+
+if(adulto == "Alma" && edad == 30 ) {
+    document.write(`Vaya son ellos`)
+}else if (edad < 25){
+   console.log("Demonios")
+}
+else {
+    document.write("No es")
+}
