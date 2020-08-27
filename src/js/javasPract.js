@@ -138,3 +138,15 @@ fly();
     }
 }
 console.log(numMaximo(10, 30)); */
+
+/* var num1 = 10;
+var num2 = 20;
+
+function numeros () {
+    if(num1 < num2) {
+        return num1;
+    }else {
+        return num2
+    }
+}
+console.log(numeros()); */
