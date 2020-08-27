@@ -127,8 +127,14 @@ fly();
  function salud (nombre) {
  console.log(`Hola ${nombre} `)
  }
- salud("Luisa");
+ salud("Luisa"); 
 
 
-
-
+/* function numMaximo(valor1, valor2) {
+    if(valor1 > valor2) {
+        return valor1;
+    }else {
+        return valor2;
+    }
+}
+console.log(numMaximo(10, 30)); */
