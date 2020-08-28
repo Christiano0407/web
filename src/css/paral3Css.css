@@ -117,4 +117,6 @@ section {
 p {
     width: 40%;
     color: var(--color4);
+    font: var(--tipo1);
+    font-size: 15px;
 }
