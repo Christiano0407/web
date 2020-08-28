@@ -36,6 +36,7 @@ text-align: center;
 padding: 10px 10px;
 background-color: #0D0D0D;
 width: 100%;
+height: 7rem;
 }
 nav a {
     color: var(--color4);
@@ -75,13 +76,14 @@ section {
     background-size: cover;
     background-position: center;
     height: 100vh;
-
+    background-attachment: fixed;
 }
 #sectiona2 {
     background-image: url(../img/andrae-ricketts-0_la3_Slfwk-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 
 }
@@ -90,6 +92,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 
 }
@@ -97,6 +100,7 @@ section {
     background-image: url(../img/water.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     height: 100vh;
 
@@ -107,6 +111,7 @@ section {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 
 }
 p {
