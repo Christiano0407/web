@@ -32,8 +32,10 @@ body {
 #main-menu {
 position: fixed;
 text-align: center;
-margin-top: 10px;
-padding: 5px 5px;
+/* margin-top: 10px; */
+padding: 10px 10px;
+background-color: #0D0D0D;
+width: 100%;
 }
 nav a {
     color: var(--color4);
@@ -48,7 +50,8 @@ nav a {
     /* font: var(--tipo1); */
 }
 nav a:hover {
-    background-color: var(--color1);
+    background-color: var(--color4);
+    color: var(--color3);
     border-radius: 5px;
 }
 nav a.active {
@@ -60,4 +63,53 @@ ul {
 ul li {
     display: inline-block;
     padding: 10px 15px;
+}
+section {
+    width: 100%;
+    margin: 0;
+    padding: 100px;
+}
+#sectional {
+    background-image: url(../img/city-lit-up-at-night-316902.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#sectiona2 {
+    background-image: url(../img/andrae-ricketts-0_la3_Slfwk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#sectiona3 {
+    background-image: url(../img/space.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#sectiona4 {
+    background-image: url(../img/water.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#sectiona5 {
+    background-image: url(../img/autumn-goodman-vTL_qy03D1I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+p {
+    width: 40%;
+    color: var(--color4);
 }
