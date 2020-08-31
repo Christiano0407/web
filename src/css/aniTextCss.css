@@ -21,7 +21,7 @@ body {
     display: flex;
     color: var(--color4);
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/aud2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/blake-connally-B3l0g6HLxr8-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
