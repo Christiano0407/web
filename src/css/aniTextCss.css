@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --color1: #0540F2;
+       --color2: #0583F2;
+       --color3: #0D0D0D;
+       --color4: #fff;
+       --color5: rgb(211, 209, 209);
+       --gradient-color: linear-gradient( rgb(#0540F2), rgb(#0D0D0D));
+}
+body {
+    /* font-family: poster-gothic-excond-atf,sans-serif;
+       font-weight: 400;
+       font-style: normal; */
+}
