@@ -1,11 +1,11 @@
-const one = document.querySelector(`.one`);
+/* const one = document.querySelector(`.one`);
 
 var hello = "hello";
 
 function hellos () {
     console.log(hello);
 }
-hellos();
+hellos(); */
 
 /*  let count = 10;
 
@@ -13,11 +13,11 @@ for( i = 0; i <= count; i++) {
   console.log(count);
 }  */
 
-function numbers() {
+/* function numbers() {
     let names = ["Chris", "Luisa", "Ana"];
     
     for(let i = 0; i <= names.length; i++) {
-        /* console.log(names[i]); */
+    
         if(i === 0) {
             console.log("Yes")
         }else {
@@ -27,4 +27,4 @@ function numbers() {
     }
 
 }
-numbers();
+numbers(); */
