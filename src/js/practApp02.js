@@ -12,14 +12,19 @@ hellos();
 for( i = 0; i <= count; i++) {
   console.log(count);
 }  */
-let names = ["Chris", "Luisa", "Ana"];
 
-for(let i = 0; i <= names.length; i++) {
-    /* console.log(names[i]); */
-    if(i === 0) {
-        console.log("Yes")
-    }else {
-        console.log("Nou")
+function numbers() {
+    let names = ["Chris", "Luisa", "Ana"];
+    
+    for(let i = 0; i <= names.length; i++) {
+        /* console.log(names[i]); */
+        if(i === 0) {
+            console.log("Yes")
+        }else {
+            console.log("Nou")
+        }
+        console.log(names[i]);
     }
-    console.log(names[i]);
+
 }
+numbers();
