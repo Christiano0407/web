@@ -45,3 +45,29 @@ nav {
     min-width: 10rem;
     text-align: center;
 }
+.nav-link {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color1);
+}
+.active {
+    height: 2px;
+    width: 10rem;
+    background-color: var(--color4);
+    position: absolute;
+    bottom: -1rem;
+    transition: transform .6s;
+}
+.nav-item:nth-child(1):hover ~ .active {
+    transform: translateX(0);
+}
+.nav-item:nth-child(2):hover ~ .active {
+    transform: translateX(10rem);
+}
+.nav-item:nth-child(3):hover ~ .active {
+    transform: translateX(20rem);
+}
+.nav-item:nth-child(4):hover ~ .active {
+    transform: translateX(30rem);
+}
