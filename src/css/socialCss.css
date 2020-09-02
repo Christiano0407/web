@@ -18,5 +18,39 @@ html,body {
     height: 100%;
     width: 100%;
     place-items: center;
-    background: linear-gradient(315deg, #fff, #23D9B7);
+    background: linear-gradient(315deg, #fff, #AB05F2);
+}
+.wrapper {
+    display: inline-flex;
+}
+.wrapper .icon {
+    margin: 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.wrapper .icon span {
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: var(--color1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 50%;
+}
+.wrapper .icon span i {
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrapper  .icon .tooltip {
+    background: var(--color1);
+    font-size: 20px;
+    padding: 10px 18px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
 }
