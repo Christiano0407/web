@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #fff;
+    --color2: #000;
+    --color3: #AB05F2;
+    --color4: #23D9B7;
+    --color5: #D7F205;
+    --color6: #3B5999;
+    --color7: #46c1f6;
+    --color8: #e1306c;
+    --color9: #DE463B;
+    --color10: #333;
+    --font1: font-family: halyard-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --font2: font-family: tgn-soft-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
