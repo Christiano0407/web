@@ -3,9 +3,6 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-html {
-font-size: 12px;
-}
 :root {
     --color1: #fff;
     --color2: #000;
@@ -15,4 +12,11 @@ font-size: 12px;
     --font1: font-family: halyard-display,sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+html,body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #fff, #23D9B7);
 }
