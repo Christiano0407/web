@@ -82,6 +82,7 @@ section {
     pointer-events: all;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.582);
+    border-radius: 50%;
   }
   .buttons div:hover {
     background-color: gray;
@@ -145,7 +146,11 @@ section {
     border: none;
     background-color: white;
     margin-top: 20px;
+    border-radius: 10px;
+    color: var(--color2);
   }
+
+
   @media (max-width: 768px) {
     .slide-1 .content {
       left: 20px;
