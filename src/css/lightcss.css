@@ -10,9 +10,6 @@ html {
     --font1: font-family: halyard-display,sans-serif;
     font-weight: 400;
     font-style: normal;
-    --font2: font-family: tgn-soft-round,sans-serif;
-    font-weight: 400;
-    font-style: normal;
     --color1: #fff;
     --color2: #333;
     --color3: #614ED9;
@@ -20,6 +17,16 @@ html {
     --color5: #023373;
     --color6: #A64005;
 }
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+/* @font-face {
+    font-family: tgn-soft-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
 body {
     width: 100%;
     height: 100vh;
@@ -27,9 +34,4 @@ body {
     font-weight: 400;
     font-style: normal;
    /*  background-color: var(--color4); */
-}
-img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
 }
