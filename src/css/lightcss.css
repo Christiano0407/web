@@ -28,3 +28,8 @@ body {
     font-style: normal;
    /*  background-color: var(--color4); */
 }
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
