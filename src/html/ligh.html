@@ -15,12 +15,25 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav></nav>
-    </header>
+        <button id="hamburger" class="hamburger" onclick="handle()"></button>
+        <nav id="main-nav" class="main-nav">
+           <ul>
+               <li><a href="#" onclick="handle()">Home</a></li>
+               <li><a href="#" onclick="handle()">About</a></li>
+               <li><a href="#" onclick="handle()">Creators</a></li>
+               <li><a href="#" onclick="handle()">Support</a></li>
+           </ul>
+        </nav>
 
-    <main>
-        <section></section>
+    <main class="home">
+        <section class="Home_info">
+          <header class="home__header">
+          <h1 class="home__title">Creator Visual</h1>
+          <span class="home__spacer"></span>
+          <p class="home__subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis similique neque illo et nisi doloremque possimus sint quibusdam soluta, culpa ipsa quasi fugit hic est corrupti cum? Cum, porro?</p>
+          <a href="#" class="home__cta" target="_blank">Support aCreators</a>
+          </header>
+        </section>
     </main>
 
     <footer></footer>
