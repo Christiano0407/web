@@ -10,12 +10,12 @@ html {
     --font1: font-family: halyard-display,sans-serif;
     font-weight: 400;
     font-style: normal;
-    --color1: #fff;
-    --color2: #333;
-    --color3: #614ED9;
-    --color4: #010D26;
-    --color5: #023373;
-    --color6: #A64005;
+    --color01: #fff;
+    --color02: #333;
+    --color03: #614ED9;
+    --color04: #010D26;
+    --color05: #023373;
+    --color06: #A64005;
 }
 img {
     width: 250px;
@@ -33,5 +33,17 @@ body {
     font-family: halyard-display,sans-serif;
     font-weight: 400;
     font-style: normal;
-   /*  background-color: var(--color4); */
+    background-color: var(--color1); 
+}
+.home {
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.Home_info {
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
