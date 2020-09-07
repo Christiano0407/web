@@ -95,3 +95,14 @@ body {
     background-color: var(--color01);
     color: var(--color04);
 } 
+.home__cta:focus,
+.home__cta:active {
+    background-color: var(--color01);
+    color: var(--color04);
+    outline: 2px solid var(--color05);
+}
+.home__cards {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
