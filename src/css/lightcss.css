@@ -112,3 +112,38 @@ body {
     display: flex;
     flex-direction: column;
 }
+.group-one .home__cards--square {
+    background-image: url(../img/aud2.jpg);
+    /* width: 250px;
+    height: 250px; */
+}
+.group-one .home__cards--target {
+    background-image: url(../img/work1.jpg);
+}
+.home__card {
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--color02);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.home__cards header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.group-two {
+    grid-column: 2 / span 1;
+    display: flex;
+    flex-direction: column;
+}
+.group-two  .home__cards--square {
+    background-image: url(../img/work2.jpg);
+   }
+   .group-two .home__cards--target {
+   background-image: url(../img/work3.jpg);
+   }
