@@ -17,11 +17,11 @@ html {
     --color05: #023373;
     --color06: #A64005;
 }
-img {
+/* img {
     width: 250px;
     height: 250px;
     object-fit: cover;
-}
+} */
 /* @font-face {
     font-family: tgn-soft-round,sans-serif;
     font-weight: 400;
@@ -34,6 +34,34 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: var(--color1); 
+}
+.hamburger  {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: var(--color04);
+    border: none;
+    top: 16px;
+    left: 16px;
+    z-index: 10;
+    transition: border 03s ease;
+}
+.hamburger:focus,
+.hamburger:active {
+    outline: 5px solid var(--color05);
+}
+.hamburger::after,.hamburger::before {
+    content: "";
+    height: 20px;
+    border-left: 1px solid var(--color03);
+    transform: rotate(50deg);
+    margin: -3px;
+    transition: transform 0.3s ease;
 }
 .home {
     height: 100%;
@@ -105,12 +133,13 @@ body {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 8px
+    padding: 8px;
 }
 .group-one {
     grid-column: 1 / span 1;
     display: flex;
     flex-direction: column;
+    
 }
 .group-one .home__cards--square {
     background-image: url(../img/aud2.jpg);
@@ -120,7 +149,7 @@ body {
 .group-one .home__cards--target {
     background-image: url(../img/work1.jpg);
 }
-.home__card {
+ .home__card {
     margin: 8px;
     padding: 16px;
     display: flex;
@@ -130,11 +159,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-}
+} 
 .home__cards header img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+   object-fit: cover;
 }
 .group-two {
     grid-column: 2 / span 1;
@@ -146,4 +176,19 @@ body {
    }
    .group-two .home__cards--target {
    background-image: url(../img/work3.jpg);
+   }
+   .home__cards header h3 a {
+    font-family: tgn-soft-round,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--color01);
+    text-decoration: none;
+   }
+   .home__cards--square {
+       height: 0;
+       padding-top: calc(100% - 32px);
+   }
+   .home__cards--target {
+       flex: auto;
    }
