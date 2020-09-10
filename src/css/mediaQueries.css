@@ -1,0 +1,11 @@
+section {
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+}
+section > img {
+    height: 40%;
+}
+.container-text {
+    text-align: center;
+}

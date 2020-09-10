@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 :root {
     --color-primario: #D95284;
@@ -33,9 +34,21 @@ section h2 {
     margin-bottom: .5rem;
 }
 section p {
-    font-weight: 300;
+/*     font-weight: 300; */
     margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+section a{
+    display: inline-block;
+    padding: .8rem 0;
+    text-decoration: none;
+    color: var(--color-base);
+    text-align: center;
+    border: .1rem solid #fff;
+    border-radius: 5rem;
+    width: 10rem;
     font-size: 1.6rem;
+    /* background-color: rgb(167, 164, 164); */
 }
 section img {
     height: 60%;
