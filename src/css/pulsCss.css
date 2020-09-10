@@ -37,8 +37,18 @@ section p {
     margin-bottom: 1.5rem;
     font-size: 1.6rem;
 }
-
 section img {
     height: 60%;
     object-fit: cover;
+}
+section:nth-child(1){
+/* background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%); */
+background-image: linear-gradient(to top, #667eea 0%, #764ba2 100%);
+}
+section:nth-child(2){
+   /*  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%); 
+}
+section:nth-child(3) {
+    background-image: linear-gradient(to top, #a8edea 0%, #5ee7df);
 }
