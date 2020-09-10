@@ -20,3 +20,25 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+section {
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 4rem;
+}
+section h2 {
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+section p {
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+section img {
+    height: 60%;
+    object-fit: cover;
+}
